@@ -13,10 +13,10 @@ public class TabuadaV2 {
 		System.out.println("Mostre a tabuada do número: ");
 		numero = leia.nextInt();
 
-		while (contador <= 10) {
-			System.out.println(numero + "x =" + contador + " = " + (numero * contador));
-			contador++;
+		//*while (contador <= 10) {
+			//System.out.println(numero + "x =" + contador + " = " + (numero * contador));//
+			//contador++;//
 		}
 	}
-}
+//}
 
