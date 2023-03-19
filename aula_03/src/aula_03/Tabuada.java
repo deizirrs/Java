@@ -13,8 +13,6 @@ public class Tabuada {
  System.out.println("Mostre a tabuada do número: ");
 	numero = leia.nextInt();
 	
-	
-// 1 é a onde ele vai começar
 	for( int contador = 1; contador <=10; contador++)
 		
 	 System.out.println(numero + "x" + contador + " = "+ (numero*contador));

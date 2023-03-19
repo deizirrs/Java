@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class exer5 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		  
+		 
 		 Scanner leia = new Scanner (System.in);
 		 
-	        int numero = 0, soma = 0;
+	        int numero = 0;
+	        int soma = 0;
 	        
 	        do {
 	        System.out.println("Digite um número: ");
