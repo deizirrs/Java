@@ -1,12 +1,12 @@
-package aula_02;
+package aula_2;
 
 import java.util.Scanner;
 
 public class PlanoSaudeV2 {
 
-    public static void main(String[] args) {
-        
-    Scanner leia = new Scanner(System.in);
+	public static void main(String[] args) {
+		
+Scanner leia = new Scanner(System.in);
         
         int faixa;
         
@@ -42,10 +42,8 @@ public class PlanoSaudeV2 {
             break;
          default:
              System.out.println("Idade inválida!");
-        }
-    }
+
+	}
 
 }
-
-
-
+}

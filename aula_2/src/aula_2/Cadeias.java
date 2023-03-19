@@ -1,10 +1,10 @@
-package aula_02;
+package aula_2;
 
 public class Cadeias {
 
-    public static void main(String[] args) {
-    
-        String s1 = "Generation Brasil";
+	public static void main(String[] args) {
+		
+		String s1 = "Generation Brasil";
         String s2 = "GENERATION BRASIL";
         String s3 = "Generation Brasil";
         
@@ -25,6 +25,9 @@ public class Cadeias {
          
      
         System.out.println(s1.contains("Generation"));
-    }
+
+
+
+	}
 
 }
