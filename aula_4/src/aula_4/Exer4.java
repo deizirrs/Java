@@ -10,11 +10,12 @@ Scanner  entrada = new  Scanner ( System . in );
 		
 		float [][] matrizNotasAlunos = new  float [ 10 ][ 4 ];
 		float [] vetorMedias = new  float [ 10 ];
-		float  soma = 0 , media = 0 ;
+		float  soma = 0;
+		float media = 0 ;
 		
-		// Entrada de dados
+		
 		for ( int  i = 0 ; i < matrizNotasAlunos.length ; i ++) {
-			System.out.println( "\nAluno" +( i + 1 ));
+			System.out.println( "\nAluno " +( i + 1 ));
 			
 			for ( int  j = 0 ; j < matrizNotasAlunos [ i ].length; j ++) {
 				System.out.println("Digite a nota do " + ( j + 1 ) + "° Semestre: "); 
@@ -23,9 +24,8 @@ Scanner  entrada = new  Scanner ( System . in );
 			}
 		}
 		
-		// Calculando como média
 		for ( int  i = 0 ; i < matrizNotasAlunos.length ; i ++) {	
-			// Resetando as variáveis ​​para um aluno não interfere no outro
+			
 			soma = 0 ;
 			media = 0 ;
 			
@@ -35,7 +35,6 @@ Scanner  entrada = new  Scanner ( System . in );
 			
 			media = soma / 4 ;
 			
-			// Adicionando a mídia no vetor de médias
 			vetorMedias [ i ] = media ;
 		}
 		
