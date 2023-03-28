@@ -75,7 +75,7 @@ import java.util.Scanner;
 	    }
 	    //metodo visualizar
 	    public void visualizar() {
-	    	 System.out.println("                          ");
+
 	        System.out.println("Nome: " + this.nome);
 	        System.out.println("Idade: " + this.idade);
 	        System.out.println("Departamento: " + this.departamento);

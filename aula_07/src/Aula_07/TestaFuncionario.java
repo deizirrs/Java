@@ -24,4 +24,7 @@ public class TestaFuncionario {
 		Vendedor vd1 = new Vendedor("Selena Gilbert", 21, "COE", " Vendedora", 2000.00f, "Vendas");
 		vd1.visualizar();
 	}
-}
+
+	}
+
+

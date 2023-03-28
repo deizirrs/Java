@@ -1,6 +1,7 @@
 package Aula_07;
 
 public class Clienteex01 {
+
 	 private String nome;
 	    private int idade;
 	    private String sexo;
@@ -68,3 +69,4 @@ public class Clienteex01 {
 	    
 	    }
 	}
+

@@ -23,7 +23,6 @@ public class TestaCliente {
 	        PessoaJuridica pj1 = new PessoaJuridica ("José da Silva", 19,"Masculino", "São Paulo", "(11) 93357-7213", "65.253.915/0001-85");
 	        pj1.visualizar();
 	        
-	        
 	}
 
 }
