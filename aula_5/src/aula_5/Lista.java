@@ -72,7 +72,7 @@ public class Lista {
 				
 				System.out.println("Digite a nova nota: ");
 				var novaNota = leia.nextDouble();
-				//sete = gravar na posiçao indicada
+				//set = gravar na posiçao indicada
 				notas.set(notas.indexOf(nota), novaNota);
 			//indexOf mostra o indice	
 				break;
